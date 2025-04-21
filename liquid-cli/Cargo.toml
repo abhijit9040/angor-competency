@@ -1,0 +1,17 @@
+[package]
+name = "liquid-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "CLI tool for Liquid Network operations"
+
+[dependencies]
+bitcoin = { version = "0.30.0", features = ["rand"] }
+elements = "0.1.0"
+elements-miniscript = "0.1.0"
+clap = { version = "4.4.0", features = ["derive"] }
+anyhow = "1.0.75"
+hex = "0.4.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.32.0", features = ["full"] } 

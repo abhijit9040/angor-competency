@@ -1,0 +1,1 @@
+Warning: Compiling in 32-bit mode on a 64-bit architecture due to lack of uint128_t support.

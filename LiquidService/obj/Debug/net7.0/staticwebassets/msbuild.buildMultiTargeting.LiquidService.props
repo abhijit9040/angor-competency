@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LiquidService.props" />
+</Project>
